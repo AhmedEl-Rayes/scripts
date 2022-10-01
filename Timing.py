@@ -1,3 +1,6 @@
+### A super simple script to determine valid usernames on a website that you have already determined is vulnerable to timing attacks, just change the IP address and path to login.
+### Example- "$python3 Timing.py Admin" will check if "Admin" is a valid username on the host
+
 import requests
 import sys
 
